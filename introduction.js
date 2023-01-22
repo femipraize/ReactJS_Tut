@@ -28,4 +28,4 @@ let p = createPerson("Femi", "Ogbangwor", 70);
 console.log(p.firstName);
 console.log(p.lastName);
 console.log(p.fullName);
-console.log(p.isSenior)
+console.log(p.isSenior())
