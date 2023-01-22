@@ -1,5 +1,13 @@
-function test(sum1, sum2) {
- return sum1 + sum2
+let displayColors = function(mesage, ...colors) {
+    console.log(mesage);
+    
+
+    for(let i in colors){
+        console.log(colors[i]);
+    }
 }
 
-console.log(test(1,5))
+let mesage = "List of colors"
+
+let colorArray = ['Orange', 'Red', 'Indigo'];
+displayColors(mesage, ...colorArray)
