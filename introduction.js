@@ -58,10 +58,17 @@ for(let entry of myMap.entries()){
     console.log(`${entry[0]} -> ${entry[1]}`);
 }
 
+// Using destructuring
+
+for(let [key, value] of myMap.entries()){
+    console.log(`${key} -> ${value}`);
+}
+
+
 for(let value of myMap.values()){
     console.log(value);
 }
 
 for(let key of myMap.keys()){
-    console.log(keys);
+    console.log(key);
 }
