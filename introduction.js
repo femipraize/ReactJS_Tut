@@ -31,8 +31,16 @@ console.log(p.fullName);
 console.log(p.isSenior())
 
 // Destructuring + rest
-let employee = ["Femi", "Victor", "Male"];
-let [fName, ...elements] = employee;
+//let employee = ["Femi", "Victor", "Male"];
+//let [fName, ...elements] = employee;
 
-console.log(fName);
-console.log(elements);
+//console.log(fName);
+//console.log(elements);
+
+const employee = {
+    fname: 'femi',
+    lname: 'Ogbangwor',
+    gender: 'male'
+};
+
+const {fname, lname, gender} = employee;
