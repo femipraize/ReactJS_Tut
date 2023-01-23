@@ -29,3 +29,10 @@ console.log(p.firstName);
 console.log(p.lastName);
 console.log(p.fullName);
 console.log(p.isSenior())
+
+// Destructuring + rest
+let employee = ["Femi", "Victor", "Male"];
+let [fName, ...elements] = employee;
+
+console.log(fName);
+console.log(elements);
