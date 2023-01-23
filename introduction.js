@@ -44,3 +44,7 @@ const employee = {
 };
 
 const {fname, lname, gender} = employee;
+
+console.log(fname);
+console.log(lname);
+console.log(gender);
