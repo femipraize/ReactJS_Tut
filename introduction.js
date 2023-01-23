@@ -39,7 +39,7 @@ console.log(p.isSenior())
 
 const employee = {
     fname: 'femi',
-    lname: 'Ogbangwor',
+    lname: 'Ogb',
     gender: 'male'
 };
 
