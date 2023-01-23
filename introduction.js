@@ -61,3 +61,7 @@ for(let entry of myMap.entries()){
 for(let value of myMap.values()){
     console.log(value);
 }
+
+for(let key of myMap.keys()){
+    console.log(keys);
+}
