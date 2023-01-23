@@ -48,3 +48,12 @@ const {fname, lname, gender} = employee;
 console.log(fname);
 console.log(lname);
 console.log(gender);
+
+let myMap = new Map([
+    ["fname", "Felix"],
+    ["lname", "Bing"]
+]);
+
+for(let entry of myMap.entries){
+    console.log(`${entry[0]} -> ${entry[1]}`);
+}
