@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = () =>{
+  const name = 'Femz'
+  const isNameShowing = false;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello, and welcom, My name is Femi.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>Hello, {isNameShowing? name: 'Boss man'}!</h1>
     </div>
   );
 }
