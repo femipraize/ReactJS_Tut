@@ -1,21 +1,19 @@
 import './App.css';
 
+const Person = () => {
+  return (
+    <>
+    <h1> Name: Femi</h1>
+    <h2> last Name : Ogbangwor</h2>
+    <h2> Age: 32</h2>
+    </>
+  )
+}
+
 const App = () =>{
-  const name = null
-  const isNameShowing = false;
   return (
     <div className="App">
-     <h1>Hello, {isNameShowing? name: 'Boss man'}!</h1>
-     {name ? (
-      <>
-        <h1> {name}</h1>
-      </>
-     ) : (
-      <>
-        <h1> Bug Test</h1>
-        <h2> There No bug</h2>
-      </>
-     ) }
+      <Person />
     </div>
   );
 }
