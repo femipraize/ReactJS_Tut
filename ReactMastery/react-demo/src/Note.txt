@@ -1,2 +1,3 @@
 Props: It allows you pass dynamic data 
 through react component
+coul
