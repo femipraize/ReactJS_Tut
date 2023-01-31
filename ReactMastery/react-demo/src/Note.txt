@@ -5,3 +5,5 @@ represent a pieace of information about the current situation
 
 when ever you call something as a fuction and it start 
 with use is called hook
+
+event: is generated due to a users action or a system generated event
