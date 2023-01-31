@@ -1,3 +1,4 @@
 Props: It allows you pass dynamic data 
 through react component
-coul
+State: is a plane javascriot object used by react to 
+represent a pieace of information about the current situation
