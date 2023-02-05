@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { useEffect } from 'react';
 import './App.css';
 
@@ -9,7 +8,7 @@ function App() {
     const response = await fetch(`${API_URL}&s=${title}`);
     const data = await response.json();
 
-    console.log(data.search);
+    console.log(data);
   }
 
   useEffect(() =>{
